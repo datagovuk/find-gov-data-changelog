@@ -29,3 +29,12 @@ $path: "/public/images/";
 }
 
 // Add extra styles here, or re-organise the Sass files in whichever way makes most sense to you
+
+.release-container {
+  border-left: solid 12px #333;
+  padding-left: 20px;
+}
+
+.release {
+  min-height: 100px;
+}

@@ -11,52 +11,59 @@
     <div class="column-two-thirds">
 
       <h1 class="heading-xlarge">
-        The GOV.UK prototype kit
-        <span class="heading-secondary">{{releaseVersion}}</span>
-      </h1>{{releaseVersion | log }}
-      <p>
-        This kit lets you rapidly create HTML prototypes of GOV.UK services.
-      </p>
+        Find Government Data changelog
+      </h1>
 
       <p>
-        It contains all you need to prototype anything from simple static pages to complex, data-driven transactions.
+        Prototypes created during the alpha phase of Data Discovery's "Find Government Data"
       </p>
+      <p>
+        If you need the username and password to these, you'll need to get in touch with the team.
+      </p>
+    </div>
+  </div>
 
-      <h2 class="heading-medium">About this page</h2>
+  <div class="grid-row">
+    <div class="column-full">
+      <br/><br/>
 
-      <p>We recommend you add links to your prototype to this page, rather than delete it.
-        You'll find this page in the kit at '/app/views/index.html'.</p>
-      <p>You can change the service name by editing the file '/app/config.js'.</p>
+      <div class="release-container">
 
-			<h2 class="heading-medium">Examples and documentation</h2>
+      {% for item in data.feed | reverse() %}
+          <div class="release">
+            <h1 class="heading-medium">
+              <a href="{{item.url}}">{{item.link_name}}</a> {{ item.name }}
+            </h1>
+            <p class="font-small text-secondary">{{item.date}}</p>
 
-			<ul class="list list-bullet">
-				<li><a href="/docs/tutorials-and-examples">Example pages and documentation</a></li>
-				<li><a href="https://github.com/alphagov/govuk_prototype_kit">GitHub</a></li>
-			</ul>
-
-      <h2 class="heading-medium">Other resources</h2>
-
-			<ul class="list list-bullet">
-				<li>
-					<a href="https://govuk-elements.herokuapp.com/snippets/">
-						Guide to GOV.UK Elements
-					</a>
-				</li>
-				<li>
-					<a href="https://www.gov.uk/service-manual">
-						Service design manual
-					</a>
-				</li>
-				<li>
-					<a href="https://www.gov.uk/design-principles">
-						Government Digital Service Design Principles
-					</a>
-				</li>
-			</ul>
+            <details>
+              <summary><span class="summary">Main changes</span></summary>
+              <div>
+                <table>
+                  <thead>
+                    <tr>
+                      <th>Change</th>
+                      <th>Why we made it</th>
+                    </tr>
+                  </thead>
+                <tbody>
+                  {% for reason in item.reasons %}
+                <tr>
+                  <td>{{ reason.what | safe() }}</td>
+                  <td>{{ reason.why | safe() }}</td>
+                </tr>
+                {% endfor %}
+              </tbody>
+            </table>
+              </div>
+            </details>
+        </div>
+      {% endfor %}
+      </div>
 
     </div>
   </div>
+
 </main>
 
 {% endblock %}
