@@ -34,17 +34,18 @@ $path: "/public/images/";
   border-left: solid 6px #333;
   padding-left: 20px;
   margin-left: 10px;
+
+  .release {
+    min-height: 280px;
+
+    .pointer {
+      position: relative;
+      margin-top: 0px;
+      margin-left: -20px;
+      width: 10px;
+      height: 6px;
+      background-color: #333;
+    }
+  }
 }
 
-.release {
-  min-height: 280px;
-}
-
-.pointer {
-  position: relative;
-  margin-top: 0px;
-  margin-left: -20px;
-  width: 10px;
-  height: 6px;
-  background-color: #333;
-}
