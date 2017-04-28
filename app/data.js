@@ -28,6 +28,14 @@ module.exports = {
                 {
                     what: "Some more things!",
                     why: "Users still needed more. "
+                },
+                {
+                    what: "Some things!",
+                    why: "Users needed it"
+                },
+                {
+                    what: "Some more things!",
+                    why: "Users still needed more. "
                 }
             ]
         }
