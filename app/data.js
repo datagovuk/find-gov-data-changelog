@@ -1,3 +1,6 @@
+// Add items to this list in date order (oldest at the top) as they
+// are reversed when shown on the page.
+
 module.exports = {
     feed: [
         {
