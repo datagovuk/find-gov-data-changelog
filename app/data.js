@@ -5,6 +5,7 @@ module.exports = {
             link_name: "FGD1",
             url: "/",
             date: "January 2017",
+            phase: "alpha",
             reasons: [
                 {
                     what: "Everything!!!",
@@ -18,6 +19,7 @@ module.exports = {
             link_name: "FGD2",
             url: "/",
             date: "February 2017",
+            phase: "alpha",
             reasons: [
                 {
                     what: "Some things!",

@@ -36,6 +36,7 @@
 
             <h1 class="heading-medium" style="margin-top: -18px;">
               <a href="{{item.url}}">{{item.link_name}}</a> {{ item.name }}
+              {% if item.phase %}&nbsp;&nbsp;<strong class="phase-tag">{{ item.phase }}</strong>{% endif %}
             </h1>
             <p class="font-small text-secondary">{{item.date}}</p>
 
