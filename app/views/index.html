@@ -31,7 +31,10 @@
 
       {% for item in data.feed | reverse() %}
           <div class="release">
-            <h1 class="heading-medium">
+            <!-- Why do people let me near a computer .... -->
+            <div class="pointer">&nbsp;</div>
+
+            <h1 class="heading-medium" style="margin-top: -18px;">
               <a href="{{item.url}}">{{item.link_name}}</a> {{ item.name }}
             </h1>
             <p class="font-small text-secondary">{{item.date}}</p>

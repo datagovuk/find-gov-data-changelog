@@ -37,4 +37,15 @@ $path: "/public/images/";
 
 .release {
   min-height: 100px;
+  margin-bottom: 20px;
+}
+
+.pointer {
+  margin-top: 0px;
+  position: relative;
+  top: 0px;
+  width: 10px;
+  margin-left: -20px;
+  background-color: #333;
+  height: 16px;
 }
