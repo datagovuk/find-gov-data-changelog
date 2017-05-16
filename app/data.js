@@ -31,7 +31,7 @@ module.exports = {
         },
 
         {
-            name: "Find UK Government Data V2",
+            name: "Find UK Government Data V1",
             link_name: "FGD1",
             url: "https://find-gov-data-v2.herokuapp.com/",
             date: "April 2017",
@@ -61,7 +61,7 @@ module.exports = {
         },
 
         {
-            name: "Find UK Government Data V3",
+            name: "Find UK Government Data V2",
             link_name: "FGD2",
             url: "https://find-gov-data-v3.herokuapp.com/",
             date: "May 2017",
