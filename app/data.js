@@ -80,6 +80,31 @@ module.exports = {
                     why: "We want to test if people will notice and click on a search tips page to get better results if they can't find what they're looking for"
                 }
             ]
+        },
+        {
+            name: "Find UK Government Data V3",
+            link_name: "FGD3",
+            url: "https://find-gov-data-v4.herokuapp.com/",
+            date: "May 2017",
+            phase: "alpha",
+            reasons: [
+                {
+                    what: "Added nav and breadcrumbs",
+                    why: "Testing on v3 showed that this was a blocker for users exploring other pages"
+                },
+                {
+                    what: "Added time period column on data links table",
+                    why: "We wanted to test whether people would use this data to look at the time period covered by the data file"
+                },
+                {
+                    what: "Removed overflow scroll from preview table",
+                    why: "Reducing the table to 5 rows only also reduced the target area for scrolling, so removed the scroll that was specific to the table to have a larger target area"
+                },
+                {
+                    what: "Replaced related datasets with more transport datasets on the related dataset section on the dataset page",
+                    why: "We wanted to find whether changing the header to the subject of the related dataset i.e. transport would make people see why the datasets are related (as part of a dataset collection on a subject)"
+                }
+            ]
         }
     ]
 }
