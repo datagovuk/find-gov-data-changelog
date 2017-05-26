@@ -105,6 +105,27 @@ module.exports = {
                     why: "We wanted to find whether changing the header to the subject of the related dataset i.e. transport would make people see why the datasets are related (as part of a dataset collection on a subject)"
                 }
             ]
+        },
+        {
+            name: "Find UK Government Data V4",
+            link_name: "FGD4",
+            url: "https://find-gov-data-v5.herokuapp.com/",
+            date: "May 2017",
+            phase: "alpha",
+            reasons: [
+                {
+                    what: "Copy changes",
+                    why: "We found that some of the existing copy could be improved to better convey meaning"
+                },
+                {
+                    what: "Better calculations of expected update and time period",
+                    why: "The calculation was inacurate"
+                },
+                {
+                    what: "Preview of small CSV files, geographical area display, time period display",
+                    why: "Incorrect behaviour or design"
+                }
+            ]
         }
     ]
 }
