@@ -6,7 +6,7 @@ module.exports = {
         {
             name: "Find UK Government Data - sprint",
             link_name: "FGD - team 1",
-            url: "https://finding-awesome1.herokuapp.com/",
+            url: "",
             date: "April 2017",
             phase: "alpha",
             reasons: [
@@ -19,7 +19,7 @@ module.exports = {
         {
             name: "Find UK Government Data - sprint",
             link_name: "FGD - team 2",
-            url: "https://github.com/datagovuk/find-gov-data-v1",
+            url: "",
             date: "April 2017",
             phase: "alpha",
             reasons: [
@@ -33,7 +33,7 @@ module.exports = {
         {
             name: "Find UK Government Data V1",
             link_name: "FGD1",
-            url: "https://find-gov-data-v2.herokuapp.com/",
+            url: "",
             date: "April 2017",
             phase: "alpha",
             reasons: [
@@ -63,7 +63,7 @@ module.exports = {
         {
             name: "Find UK Government Data V2",
             link_name: "FGD2",
-            url: "https://find-gov-data-v3.herokuapp.com/",
+            url: "",
             date: "May 2017",
             phase: "alpha",
             reasons: [
@@ -84,7 +84,7 @@ module.exports = {
         {
             name: "Find UK Government Data V3",
             link_name: "FGD3",
-            url: "https://find-gov-data-v4.herokuapp.com/",
+            url: "",
             date: "May 2017",
             phase: "alpha",
             reasons: [
@@ -109,7 +109,7 @@ module.exports = {
         {
             name: "Find UK Government Data V4",
             link_name: "FGD4",
-            url: "https://find-gov-data-v5.herokuapp.com/",
+            url: "",
             date: "May 2017",
             phase: "alpha",
             reasons: [
